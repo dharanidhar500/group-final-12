@@ -9,7 +9,7 @@ public class SearchPage {
     @FindBy(xpath = "//input[@placeholder='Search Twitter']")
     WebElement entertext;
 
-    @FindBy(xpath = "//div[@data-testid='UserAvatar-Container-msdhoni']//div[@class='css-1dbjc4n r-172uzmj r-1pi2tsx r-1ny4l3l r-13qz1uu']")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[5]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]")
     WebElement person;
 
 

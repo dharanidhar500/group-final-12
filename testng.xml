@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/Dileep/IdeaProjects/GroupProject/src/test/java/org/example/ProjectPageTest.java">
         <parameter name="browser" value="chrome"></parameter>
-        <parameter name="url" value="https://www.github.com"></parameter>
+        <parameter name="url" value="https://www.twitter.com"></parameter>
         <classes>
             <class name="org.example.ProjectPageTest">
                 <methods>

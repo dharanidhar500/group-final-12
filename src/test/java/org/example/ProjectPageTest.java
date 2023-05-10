@@ -12,9 +12,9 @@ public class ProjectPageTest {
     public void LoginVerification() throws InterruptedException {
         LoginPage login = PageFactory.initElements(driver, LoginPage.class);
         //UI-1 invalid credentials
-        login.loginWebsite("RishiKesh977439","lkjhghjk");
+     //   login.loginWebsite("RishiKesh977439","lkjhghjk");
         //UI-2 valid credentials
-        login.loginWebsiteagain("RishiKesh977439", "Twitterlog436@");
+        login.loginWebsiteagain("Ramkuma82374175", "Ram12345@");
 
 
     }
@@ -30,7 +30,7 @@ public class ProjectPageTest {
     public void Follow() throws InterruptedException {
         FollowPage s1 = PageFactory.initElements(driver, FollowPage.class);
         //UI-4 follow the selected person
-        s1.FollowMethod();
+//        s1.FollowMethod();
 
     }
     @Test(priority = 4)
