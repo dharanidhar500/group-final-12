@@ -14,7 +14,7 @@ public class ProjectPageTest {
         //UI-1 invalid credentials
         login.loginWebsite("RishiKesh977439","lkjhghjk");
         //UI-2 valid credentials
-        login.loginWebsiteagain("RishiKesh977439", "Twitterlog436@");
+        login.loginWebsiteagain("Ramkuma82374175", "Ram12345@");
 
 
     }
